@@ -35,5 +35,6 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Internet :: Proxy Servers',
     ],
+    setup_requires=["IPy"],
     long_description=long_description,
 )
